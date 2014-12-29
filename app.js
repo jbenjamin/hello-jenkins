@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
  
 app.get('/', function (req, res) {
-  res.send('hello world from my first Node App!!.. J');
+  res.send('hello Jenkins!!.. J');
 });
  
 app.listen(process.env.PORT || 5000);
